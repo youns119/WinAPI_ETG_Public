@@ -1,0 +1,10 @@
+#pragma once
+
+enum class EFFECT_TYPE
+{
+	BULLET_EFFECT,
+	INTERACT_EFFECT,
+	SPAWN_EFFECT,
+	FEAR_EFFECT,
+	END,
+};

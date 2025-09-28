@@ -1,0 +1,11 @@
+#pragma once
+
+enum class PATTERN_TYPE
+{
+	PATTERN1,
+	PATTERN2,
+	PATTERN3,
+	PATTERN4,
+	PATTERN5,
+	END,
+};

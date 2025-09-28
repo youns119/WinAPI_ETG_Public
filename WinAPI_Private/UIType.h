@@ -1,0 +1,21 @@
+#pragma once
+
+enum class UI_TYPE
+{
+	HP,
+	FEAR,
+	KEY,
+	COIN,
+	ITEM,
+	GUNBOX,
+	ITEMBOX,
+	GUN,
+	BULLET,
+	MAGAZINE,
+	RELOAD,
+	BOSSHP,
+	MAP,
+	MINIMAP,
+	BUTTON,
+	END,
+};

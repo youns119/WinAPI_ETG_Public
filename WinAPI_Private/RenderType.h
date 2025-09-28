@@ -1,0 +1,11 @@
+#pragma once
+
+enum class RENDER_TYPE
+{
+	RENDER_TILE_PREV,
+	RENDER_OBJECT,
+	RENDER_EFFECT,
+	RENDER_TILE_LAST,
+	RENDER_UI,
+	END,
+};

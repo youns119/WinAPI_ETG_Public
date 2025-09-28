@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Framework">
+      <UniqueIdentifier>{1fa78e56-dbad-4148-b6ea-1050f50b96d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Framework\01.Window">
+      <UniqueIdentifier>{783f1a31-34c9-425d-91e8-a83aadb94651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Framework\00.WinAPI">
+      <UniqueIdentifier>{d590a5db-f504-4f87-9ada-d423de719301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility">
+      <UniqueIdentifier>{9b505e16-2a82-42ed-9331-166a7c7ef0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.ETC">
+      <UniqueIdentifier>{24d70990-8770-4380-a3a2-f9c1b7863cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Interface">
+      <UniqueIdentifier>{81f4837c-e787-4a25-8f3f-77a19901e206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\00.Struct">
+      <UniqueIdentifier>{7d46ee11-eaa4-4c5a-98f4-0b6e6150c75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Timer">
+      <UniqueIdentifier>{d155b676-17f9-4f89-856e-c12a0a14b5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Input">
+      <UniqueIdentifier>{665194b7-c795-4d0d-86b2-4ec20042d945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Input\00.Keyboard">
+      <UniqueIdentifier>{8921da74-cde3-4cb3-a47f-b75732f1f3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Tool">
+      <UniqueIdentifier>{fd354208-f395-40a0-a2e8-57e5569fdd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource">
+      <UniqueIdentifier>{ccf5845b-6f3e-45bb-990f-2d319630b4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource\00.Manager">
+      <UniqueIdentifier>{9836fe33-1930-497d-a432-865c081bca23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource\00.Manager\00.Path">
+      <UniqueIdentifier>{41e8fc19-ff73-4ded-bbcb-f00c29a94d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource\00.Manager\01.Resource">
+      <UniqueIdentifier>{a198106f-3750-4069-aaff-51bbc8a0bf95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource\02.Sound">
+      <UniqueIdentifier>{52c5d68e-31af-45b4-bf42-4587f8433d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource\01.Texture">
+      <UniqueIdentifier>{1ccd2410-8295-463e-a623-d6011ebd408c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Main">
+      <UniqueIdentifier>{f33a4840-343d-49a7-aadf-bc3921dd5f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object">
+      <UniqueIdentifier>{a6b24d86-29f7-4074-a775-30b18a937539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Scene">
+      <UniqueIdentifier>{7642a76b-9438-4a49-9f3c-7df6ddfe86b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Scene\00.Manager">
+      <UniqueIdentifier>{5fd68e95-2023-42e6-ae64-dffe7e8cce54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Tool\00.Paint">
+      <UniqueIdentifier>{f6383205-dc76-4e79-8fbb-c06a33a36a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Tool\00.Paint\00.Manager">
+      <UniqueIdentifier>{4cbaf355-bc10-4732-b942-4260a41449d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character">
+      <UniqueIdentifier>{dee66d6d-7c45-436f-bb38-e8ebdc207788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\00.Player">
+      <UniqueIdentifier>{8af341b4-f56a-4b7d-a6fc-5ff4cd8c4e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\01.Enemy">
+      <UniqueIdentifier>{a5be65cf-f9c0-4e86-bc54-f918cbdaac6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums">
+      <UniqueIdentifier>{2c1330c1-6115-488f-b955-c0e2de6402cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\02.Template">
+      <UniqueIdentifier>{ab131bf2-3a9d-435a-8f01-55e653bca34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\03.Function">
+      <UniqueIdentifier>{45ad9002-81ef-491b-8ccc-ccaa5baef771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\00.Input">
+      <UniqueIdentifier>{b5232ff6-3265-42e3-9294-9150b09692f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\01.Paint">
+      <UniqueIdentifier>{6fd91eb8-fe42-4a10-841b-ac6b6c82e8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\02.Object">
+      <UniqueIdentifier>{5fef74b9-0960-4337-afc8-f479b1b46ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\03.Scene">
+      <UniqueIdentifier>{e44b6093-7376-42d0-8275-bc9704ae605b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\02.Object\00.Character">
+      <UniqueIdentifier>{02cb063d-4572-43d1-9038-057bbf94779c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\02.Object\00.Character\00.Player">
+      <UniqueIdentifier>{b5b0dfdf-d0e3-4a7b-9296-12beebefd897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Input\01.Mouse">
+      <UniqueIdentifier>{eedcc017-66ac-4748-bb7e-81ab8f5ec00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.Camera">
+      <UniqueIdentifier>{34ce1459-0a20-4dab-8612-4ae0b49c83b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\04.Camera">
+      <UniqueIdentifier>{49afc8c3-c8f0-4c46-889d-072a36f2a508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\05.Event">
+      <UniqueIdentifier>{73461841-8fde-4040-9dc3-7335f0f109bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Scene\01.Edit">
+      <UniqueIdentifier>{1eabf0ee-fd37-4bdf-99fa-d7fedb6aab44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Scene\02.Menu">
+      <UniqueIdentifier>{bc54b6cb-3464-4a7f-98f1-24098fd67697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\06.Tile">
+      <UniqueIdentifier>{1d144491-c04c-4267-9a3e-fc5d42a96eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI">
+      <UniqueIdentifier>{b3adc803-ddfc-4582-9503-ce16ee211ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\07.UI">
+      <UniqueIdentifier>{0ed21d87-9d1e-4db1-a797-6d93bde50cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Tool\01.Generator">
+      <UniqueIdentifier>{e6501bd6-292a-490e-9f8e-815762fe66d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\03.Key">
+      <UniqueIdentifier>{d5bd403d-7ca7-4c8b-ba44-f829386dd9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\04.Coin">
+      <UniqueIdentifier>{bc7fe952-596a-42de-9537-aac1688543c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\05.Shield">
+      <UniqueIdentifier>{c3cf875e-e603-4306-b948-acde7498f6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\07.Bullet">
+      <UniqueIdentifier>{1a451f1c-7039-446d-b206-481ab8d3febd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\06.GunBox">
+      <UniqueIdentifier>{9b5c78f1-b3c0-4eb8-b318-1e45eebabb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun">
+      <UniqueIdentifier>{2190a2d2-6d7b-477c-8592-d89f4d5fd4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\08.Gun">
+      <UniqueIdentifier>{abe49b3e-8a92-42e8-a3fd-af0d74a6d11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item">
+      <UniqueIdentifier>{0d0ca056-f36c-4444-b8a0-c410815432c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item\00.Gun">
+      <UniqueIdentifier>{45fdb446-76c9-4844-b935-317bedb25eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\09.Item">
+      <UniqueIdentifier>{35d7820f-3d12-4f00-9d8c-2e1ede4b154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun\00.Revolver">
+      <UniqueIdentifier>{278594e0-32a7-4f5e-8cb1-11183613670e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\00.Manager">
+      <UniqueIdentifier>{39fb1ab5-ade7-4852-b764-5536423cac7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\01.HP">
+      <UniqueIdentifier>{a62d7a3d-d54d-4201-988a-2c663d532096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\02.Fear">
+      <UniqueIdentifier>{7e784a16-da79-4ef3-9186-eb1540cee459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.Component">
+      <UniqueIdentifier>{58eb58a3-7db0-4e69-b278-ffe8daa6c7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.Component\00.Collider">
+      <UniqueIdentifier>{5d24ecad-6b6f-4aa5-885a-be0ba2d80b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.Component\00.Collider\00.Manager">
+      <UniqueIdentifier>{e77a9de0-cff7-4925-99d5-cbadb3ba3642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.Component\01.Animator">
+      <UniqueIdentifier>{298d5093-d41e-4fa6-8d2b-0456777485dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.Component\02.Physics">
+      <UniqueIdentifier>{94f452d7-cb4b-4812-aaef-2533fcbac38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.Event">
+      <UniqueIdentifier>{d4412371-7ae7-461e-ad66-c56bed628dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\08.Magazine">
+      <UniqueIdentifier>{2b4d1253-c7bc-49f8-a436-190dbdab4d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\10.Projectile">
+      <UniqueIdentifier>{a0c9b15e-d515-433d-9aff-c31bed220c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\05.Projectile">
+      <UniqueIdentifier>{b5671c41-0f62-4a46-8402-1c17f784202c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\09.Reload">
+      <UniqueIdentifier>{e2b6aa70-5389-4817-a182-3c40f01ccc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\02.Object\00.Character\01.Enemy">
+      <UniqueIdentifier>{b7a71b3f-eef8-4de9-8777-a069b9b4f131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\01.Enemy\00.Normal">
+      <UniqueIdentifier>{06d44bf6-7837-41d3-b4f1-59169937e65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\01.Enemy\01.Boss">
+      <UniqueIdentifier>{f4aad6eb-9e10-4171-aef2-b74803baf1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\01.Enemy\00.Normal\00.BulletKin">
+      <UniqueIdentifier>{0328e490-5986-48cd-ad3c-8672f4939fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\01.Enemy\01.Boss\00.BulletKing">
+      <UniqueIdentifier>{24cd6c1d-f8cf-4d95-a5d2-212c8d63b228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\99.Invisible">
+      <UniqueIdentifier>{75b5856b-79b7-42c8-8ae9-903aa24f0f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\11.Interact">
+      <UniqueIdentifier>{62ffaac5-d40b-40ee-8c6d-d35c9b2336f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\06,Interact">
+      <UniqueIdentifier>{bd609c25-8225-45cb-ac5f-0b4cb5130707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\06,Interact\00.Table">
+      <UniqueIdentifier>{d2437c66-3840-4a3c-836e-d24a318203b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\11.Interact\00.Table">
+      <UniqueIdentifier>{3ee07d47-5566-4836-8b74-fb0fc23e95d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun\01.Shotgun">
+      <UniqueIdentifier>{9f44cac0-611f-45cb-87fa-9f56f107e121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun\02.MachineGun">
+      <UniqueIdentifier>{61c8c225-f16d-4ae8-880c-0b2cd19518d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun\04.ReflectGun">
+      <UniqueIdentifier>{25a61955-279f-48c8-922e-cd277a13412f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun\05.HomingGun">
+      <UniqueIdentifier>{4540d322-3117-44b3-a5f2-380d25c624ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\03.Gun\03.PierceGun">
+      <UniqueIdentifier>{f29d0db1-e9ee-480d-b1a7-40891c040702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\06,Interact\01.Chest">
+      <UniqueIdentifier>{6a589d24-8299-43a9-9c1b-24770a6f8418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\05.Projectile\00.Revolver">
+      <UniqueIdentifier>{e4db38cf-ac9b-4ef9-af16-913dca304bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\05.Projectile\01.ShotGun">
+      <UniqueIdentifier>{0cacbf07-a9ff-43ec-aeee-b981ab58ab4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect">
+      <UniqueIdentifier>{0b644700-3b8d-4955-abf4-47c77e7a5e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\12.Effect">
+      <UniqueIdentifier>{c0f39a7b-5281-4c54-9725-7c4368a41054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\00.Revolver">
+      <UniqueIdentifier>{b5eb98b1-7c15-4728-ab6a-b7bbe34f092a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\01.ShotGun">
+      <UniqueIdentifier>{6d14924a-149d-4ef4-bc7a-028ae508774a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\02.MachineGun">
+      <UniqueIdentifier>{e5ffcb0b-6e69-410a-9ea2-1d2baac6af90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\05.Projectile\02.MachineGun">
+      <UniqueIdentifier>{b64f48d7-9d42-41af-8ddd-83deb04beb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\11.Interact\01.Chest">
+      <UniqueIdentifier>{2fe6844a-68d0-4f59-90f5-01fb366290b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\03.Table">
+      <UniqueIdentifier>{d28f0157-9d77-4cf7-b670-6aa0e8a09f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\04.Chest">
+      <UniqueIdentifier>{9a326ef2-42e3-4857-bae7-370718df5bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\06,Interact\02.Barrel">
+      <UniqueIdentifier>{1e344933-70f9-4e0c-b968-8c32600c94f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\11.Interact\02.Barrel">
+      <UniqueIdentifier>{5ba2d686-d791-41e9-b926-26a864a627be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\05.Barrel">
+      <UniqueIdentifier>{94d0151a-87c0-4890-b30a-2b324b7d34ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\08.Blow">
+      <UniqueIdentifier>{d9a07179-a9a4-4d09-814d-a9ca308bb561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\01.Wall">
+      <UniqueIdentifier>{9eddc221-ca37-4f37-858c-5ae229a25ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Scene\04.BossRoom">
+      <UniqueIdentifier>{cdaea50c-01a2-4a7c-a93b-28426bea8887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\10.Trigger">
+      <UniqueIdentifier>{db0c46eb-fde7-4317-b200-e5de12db6439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\13.EventTrigger">
+      <UniqueIdentifier>{b84fa1e0-c177-4dfd-adcf-812e80c5587f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\10.Trigger\00.EnemyGen">
+      <UniqueIdentifier>{13d7ded1-083b-4ff8-9d72-e87d40369455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Scene\03.Dungeon">
+      <UniqueIdentifier>{bf4b581d-93ea-4fd0-8b6a-ac3a73bca049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\06.Spawn">
+      <UniqueIdentifier>{faf068ee-1dc9-4c7b-865c-4bdb2e781b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item\01.Coin">
+      <UniqueIdentifier>{5ebfb12a-1a42-45bf-8fed-f07e6485f39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\10.Trigger\01.SceneChange">
+      <UniqueIdentifier>{357a4e62-07a2-42fe-84e7-cb64c87c1196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.Sound">
+      <UniqueIdentifier>{3b2c7001-2f24-411d-802b-615b508304d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.Sound\00.Manager">
+      <UniqueIdentifier>{70b6bff2-e841-4b62-99fa-57c0c33dbb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utility\01.Enums\13.Sound">
+      <UniqueIdentifier>{da670aa6-7931-4bca-a5b8-70812705cc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Resource\02.Sound\00.Manager">
+      <UniqueIdentifier>{25228836-fbd1-47c4-bec4-2fcb670a8010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\10.BossHP">
+      <UniqueIdentifier>{8be3c9ae-ca80-461d-97fb-6803d20474ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item\02.Key">
+      <UniqueIdentifier>{64d11067-3e88-43b3-853d-86ac1bb73915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item\03.HP">
+      <UniqueIdentifier>{e6e702fe-6547-4894-ae52-50a702bd1940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item\04.Fear">
+      <UniqueIdentifier>{9d29243d-e4e1-4a65-8759-f83ad82331d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\07.Fear">
+      <UniqueIdentifier>{7e795692-9c87-461b-810e-a2a5e922ba94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\11.Button">
+      <UniqueIdentifier>{8804a5de-f9e7-4f7c-910c-334067574eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\11.Button\00.Start">
+      <UniqueIdentifier>{98b93ea2-d6ae-4288-ab08-664330219d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\04.Item\05.Medikit">
+      <UniqueIdentifier>{863facb3-f10e-4ff6-841e-37d6c0e58916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\11.ItemBox">
+      <UniqueIdentifier>{a4a32411-b99b-4f8e-a8db-ff425c01fd16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\05.Projectile\03.ReflectGun">
+      <UniqueIdentifier>{c335e550-907c-4275-82bb-12fa46233d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\07.ReflectGun">
+      <UniqueIdentifier>{d3e38a32-4e73-487f-9a67-5fbee01f3422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\05.Projectile\04.HomingGun">
+      <UniqueIdentifier>{968bd73b-1c17-48f7-8282-7f2a2221049e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\08.HomingGun">
+      <UniqueIdentifier>{aeca78d2-d797-45c1-94ea-b83747dd7201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\00.Character\01.Enemy\00.Normal\01.ShotGunKin">
+      <UniqueIdentifier>{b001897c-ff4a-455b-b93d-9c59287322ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\02.UI\12.Minimap">
+      <UniqueIdentifier>{30f699d0-eab5-4a89-8a42-64827f888ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Object\07.Effect\09.Homing">
+      <UniqueIdentifier>{81dfe316-9c21-4fbd-8171-3d7fb1b687ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinAPI.h">
+      <Filter>00.Framework\00.WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00.Framework\01.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>00.Framework\01.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>02.Utility\00.Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>02.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>08.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>01.Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>07.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="AFactory.h">
+      <Filter>02.Utility\02.Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>02.Utility\02.Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.h">
+      <Filter>02.Utility\02.Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>03.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>04.Input\00.Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>09.Scene\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>09.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>09.Scene\03.Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>09.Scene\02.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>11.Component\00.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>06.Resource\00.Manager\00.Path</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>06.Resource\00.Manager\01.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>06.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>06.Resource\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintManager.h">
+      <Filter>05.Tool\00.Paint\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>05.Tool\00.Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>08.Object\00.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>11.Component\00.Collider\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>08.Object\00.Character\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>02.Utility\03.Function</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>12.Event</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyState.h">
+      <Filter>02.Utility\01.Enums\00.Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PenType.h">
+      <Filter>02.Utility\01.Enums\01.Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="BrushType.h">
+      <Filter>02.Utility\01.Enums\01.Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>02.Utility\01.Enums\02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>02.Utility\01.Enums\03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>08.Object\02.UI\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventType.h">
+      <Filter>02.Utility\01.Enums\05.Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>11.Component\01.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>11.Component\01.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterState.h">
+      <Filter>02.Utility\01.Enums\02.Object\00.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>04.Input\01.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>11.Component\02.Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>10.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraEffect.h">
+      <Filter>02.Utility\01.Enums\04.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>05.Tool\01.Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>09.Scene\01.Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="TileType.h">
+      <Filter>02.Utility\01.Enums\06.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="HP.h">
+      <Filter>08.Object\02.UI\01.HP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>08.Object\02.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIType.h">
+      <Filter>02.Utility\01.Enums\07.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Fear.h">
+      <Filter>08.Object\02.UI\02.Fear</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>08.Object\02.UI\03.Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>08.Object\02.UI\04.Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>08.Object\02.UI\05.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBox.h">
+      <Filter>08.Object\02.UI\06.GunBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>08.Object\02.UI\07.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>08.Object\03.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="GunType.h">
+      <Filter>02.Utility\01.Enums\08.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>08.Object\04.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Gun.h">
+      <Filter>08.Object\04.Item\00.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>02.Utility\01.Enums\09.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MagType.h">
+      <Filter>02.Utility\01.Enums\08.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerType.h">
+      <Filter>02.Utility\01.Enums\08.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderType.h">
+      <Filter>02.Utility\01.Enums\02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>08.Object\03.Gun\00.Revolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Magazine.h">
+      <Filter>08.Object\02.UI\08.Magazine</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileType.h">
+      <Filter>02.Utility\01.Enums\10.Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>08.Object\05.Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile_Revolver.h">
+      <Filter>08.Object\05.Projectile\00.Revolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>08.Object\00.Character\01.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Reload.h">
+      <Filter>08.Object\02.UI\09.Reload</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletKin.h">
+      <Filter>08.Object\00.Character\01.Enemy\00.Normal\00.BulletKin</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyType.h">
+      <Filter>02.Utility\01.Enums\02.Object\00.Character\01.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletKing.h">
+      <Filter>08.Object\00.Character\01.Enemy\01.Boss\00.BulletKing</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternType.h">
+      <Filter>02.Utility\01.Enums\02.Object\00.Character\01.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDir.h">
+      <Filter>02.Utility\01.Enums\02.Object\00.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractType.h">
+      <Filter>02.Utility\01.Enums\11.Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="Interact.h">
+      <Filter>08.Object\06,Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>08.Object\06,Interact\00.Table</Filter>
+    </ClInclude>
+    <ClInclude Include="TableState.h">
+      <Filter>02.Utility\01.Enums\11.Interact\00.Table</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotGun.h">
+      <Filter>08.Object\03.Gun\01.Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineGun.h">
+      <Filter>08.Object\03.Gun\02.MachineGun</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingGun.h">
+      <Filter>08.Object\03.Gun\05.HomingGun</Filter>
+    </ClInclude>
+    <ClInclude Include="PierceGun.h">
+      <Filter>08.Object\03.Gun\03.PierceGun</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectGun.h">
+      <Filter>08.Object\03.Gun\04.ReflectGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile_ShotGun.h">
+      <Filter>08.Object\05.Projectile\01.ShotGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>08.Object\07.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectType.h">
+      <Filter>02.Utility\01.Enums\12.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>08.Object\06,Interact\01.Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="RevolverEffect.h">
+      <Filter>08.Object\07.Effect\00.Revolver</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotGunEffect.h">
+      <Filter>08.Object\07.Effect\01.ShotGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile_MachineGun.h">
+      <Filter>08.Object\05.Projectile\02.MachineGun</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineGunEffect.h">
+      <Filter>08.Object\07.Effect\02.MachineGun</Filter>
+    </ClInclude>
+    <ClInclude Include="TableDir.h">
+      <Filter>02.Utility\01.Enums\11.Interact\00.Table</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestState.h">
+      <Filter>02.Utility\01.Enums\11.Interact\01.Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="TableEffect.h">
+      <Filter>08.Object\07.Effect\03.Table</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestEffect.h">
+      <Filter>08.Object\07.Effect\04.Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrelState.h">
+      <Filter>02.Utility\01.Enums\11.Interact\02.Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="BlowEffect.h">
+      <Filter>08.Object\07.Effect\05.Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrel.h">
+      <Filter>08.Object\06,Interact\02.Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeEffect.h">
+      <Filter>08.Object\07.Effect\05.Barrel</Filter>
+    </ClInclude>
+    <ClInclude Include="Blow.h">
+      <Filter>08.Object\08.Blow</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>08.Object\01.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="BossChair.h">
+      <Filter>08.Object\00.Character\01.Enemy\01.Boss\00.BulletKing</Filter>
+    </ClInclude>
+    <ClInclude Include="BossState.h">
+      <Filter>02.Utility\01.Enums\02.Object\00.Character\01.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairState.h">
+      <Filter>02.Utility\01.Enums\02.Object\00.Character\01.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>09.Scene\04.BossRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTrigger.h">
+      <Filter>08.Object\10.Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTriggerType.h">
+      <Filter>02.Utility\01.Enums\13.EventTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGen.h">
+      <Filter>08.Object\10.Trigger\00.EnemyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnEffect.h">
+      <Filter>08.Object\07.Effect\06.Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawn.h">
+      <Filter>08.Object\10.Trigger\00.EnemyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenType.h">
+      <Filter>02.Utility\01.Enums\13.EventTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Coin.h">
+      <Filter>08.Object\04.Item\01.Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChanger.h">
+      <Filter>08.Object\10.Trigger\01.SceneChange</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>02.Utility\01.Enums\13.Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>06.Resource\02.Sound\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHP.h">
+      <Filter>08.Object\02.UI\10.BossHP</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Key.h">
+      <Filter>08.Object\04.Item\02.Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_HP.h">
+      <Filter>08.Object\04.Item\03.HP</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Fear.h">
+      <Filter>08.Object\04.Item\04.Fear</Filter>
+    </ClInclude>
+    <ClInclude Include="FearEffect.h">
+      <Filter>08.Object\07.Effect\07.Fear</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>08.Object\02.UI\11.Button\00.Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Medikit.h">
+      <Filter>08.Object\04.Item\05.Medikit</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBox.h">
+      <Filter>08.Object\02.UI\11.ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile_ReflectGun.h">
+      <Filter>08.Object\05.Projectile\03.ReflectGun</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectGunEffect.h">
+      <Filter>08.Object\07.Effect\07.ReflectGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile_HomingGun.h">
+      <Filter>08.Object\05.Projectile\04.HomingGun</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingGunEffect.h">
+      <Filter>08.Object\07.Effect\08.HomingGun</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotGunKin.h">
+      <Filter>08.Object\00.Character\01.Enemy\00.Normal\01.ShotGunKin</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>08.Object\02.UI\12.Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingEffect.h">
+      <Filter>08.Object\07.Effect\09.Homing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI.cpp">
+      <Filter>00.Framework\00.WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>00.Framework\01.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>08.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>07.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>03.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>04.Input\00.Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>09.Scene\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>09.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>09.Scene\03.Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>09.Scene\02.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>11.Component\00.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>06.Resource\00.Manager\00.Path</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>06.Resource\00.Manager\01.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>06.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>06.Resource\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintManager.cpp">
+      <Filter>05.Tool\00.Paint\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>05.Tool\00.Paint</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>08.Object\00.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>11.Component\00.Collider\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>08.Object\00.Character\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>02.Utility\03.Function</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>12.Event</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>08.Object\02.UI\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>11.Component\01.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>11.Component\01.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>04.Input\01.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>11.Component\02.Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>10.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>05.Tool\01.Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>09.Scene\01.Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="HP.cpp">
+      <Filter>08.Object\02.UI\01.HP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>08.Object\02.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Fear.cpp">
+      <Filter>08.Object\02.UI\02.Fear</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>08.Object\02.UI\03.Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>08.Object\02.UI\04.Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>08.Object\02.UI\05.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBox.cpp">
+      <Filter>08.Object\02.UI\06.GunBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>08.Object\02.UI\07.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>08.Object\03.Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>08.Object\04.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Gun.cpp">
+      <Filter>08.Object\04.Item\00.Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Revolver.cpp">
+      <Filter>08.Object\03.Gun\00.Revolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Magazine.cpp">
+      <Filter>08.Object\02.UI\08.Magazine</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>08.Object\05.Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile_Revolver.cpp">
+      <Filter>08.Object\05.Projectile\00.Revolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>08.Object\00.Character\01.Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Reload.cpp">
+      <Filter>08.Object\02.UI\09.Reload</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletKin.cpp">
+      <Filter>08.Object\00.Character\01.Enemy\00.Normal\00.BulletKin</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletKing.cpp">
+      <Filter>08.Object\00.Character\01.Enemy\01.Boss\00.BulletKing</Filter>
+    </ClCompile>
+    <ClCompile Include="Interact.cpp">
+      <Filter>08.Object\06,Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>08.Object\06,Interact\00.Table</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotGun.cpp">
+      <Filter>08.Object\03.Gun\01.Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineGun.cpp">
+      <Filter>08.Object\03.Gun\02.MachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingGun.cpp">
+      <Filter>08.Object\03.Gun\05.HomingGun</Filter>
+    </ClCompile>
+    <ClCompile Include="PierceGun.cpp">
+      <Filter>08.Object\03.Gun\03.PierceGun</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectGun.cpp">
+      <Filter>08.Object\03.Gun\04.ReflectGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile_ShotGun.cpp">
+      <Filter>08.Object\05.Projectile\01.ShotGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>08.Object\07.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>08.Object\06,Interact\01.Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="RevolverEffect.cpp">
+      <Filter>08.Object\07.Effect\00.Revolver</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotGunEffect.cpp">
+      <Filter>08.Object\07.Effect\01.ShotGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile_MachineGun.cpp">
+      <Filter>08.Object\05.Projectile\02.MachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineGunEffect.cpp">
+      <Filter>08.Object\07.Effect\02.MachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="TableEffect.cpp">
+      <Filter>08.Object\07.Effect\03.Table</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestEffect.cpp">
+      <Filter>08.Object\07.Effect\04.Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="BlowEffect.cpp">
+      <Filter>08.Object\07.Effect\05.Barrel</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrel.cpp">
+      <Filter>08.Object\06,Interact\02.Barrel</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeEffect.cpp">
+      <Filter>08.Object\07.Effect\05.Barrel</Filter>
+    </ClCompile>
+    <ClCompile Include="Blow.cpp">
+      <Filter>08.Object\08.Blow</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>08.Object\01.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="BossChair.cpp">
+      <Filter>08.Object\00.Character\01.Enemy\01.Boss\00.BulletKing</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>09.Scene\04.BossRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTrigger.cpp">
+      <Filter>08.Object\10.Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGen.cpp">
+      <Filter>08.Object\10.Trigger\00.EnemyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnEffect.cpp">
+      <Filter>08.Object\07.Effect\06.Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawn.cpp">
+      <Filter>08.Object\10.Trigger\00.EnemyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Coin.cpp">
+      <Filter>08.Object\04.Item\01.Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChanger.cpp">
+      <Filter>08.Object\10.Trigger\01.SceneChange</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>06.Resource\02.Sound\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHP.cpp">
+      <Filter>08.Object\02.UI\10.BossHP</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Key.cpp">
+      <Filter>08.Object\04.Item\02.Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_HP.cpp">
+      <Filter>08.Object\04.Item\03.HP</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Fear.cpp">
+      <Filter>08.Object\04.Item\04.Fear</Filter>
+    </ClCompile>
+    <ClCompile Include="FearEffect.cpp">
+      <Filter>08.Object\07.Effect\07.Fear</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>08.Object\02.UI\11.Button\00.Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Medikit.cpp">
+      <Filter>08.Object\04.Item\05.Medikit</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBox.cpp">
+      <Filter>08.Object\02.UI\11.ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile_ReflectGun.cpp">
+      <Filter>08.Object\05.Projectile\03.ReflectGun</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectGunEffect.cpp">
+      <Filter>08.Object\07.Effect\07.ReflectGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile_HomingGun.cpp">
+      <Filter>08.Object\05.Projectile\04.HomingGun</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingGunEffect.cpp">
+      <Filter>08.Object\07.Effect\08.HomingGun</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotGunKin.cpp">
+      <Filter>08.Object\00.Character\01.Enemy\00.Normal\01.ShotGunKin</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>08.Object\02.UI\12.Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingEffect.cpp">
+      <Filter>08.Object\07.Effect\09.Homing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinAPI_Private.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WinAPI_Private.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+#pragma once
+
+enum class TILE_TYPE
+{
+	FLOOR,
+	EDGE,
+	WALL,
+	END,
+};
+
+enum class TILE_SUBTYPE
+{
+	FLOOR1,
+	FLOOR2,
+	EDGE_D,
+	EDGE_U,
+	EDGE_R,
+	EDGE_L,
+	EDGE_DR,
+	EDGE_DL,
+	EDGE_UR,
+	EDGE_UL,
+	EDGE_CORNER_DR,
+	EDGE_CORNER_DL,
+	EDGE_CORNER_UR,
+	EDGE_CORNER_UL,
+	WALL_U,
+	WALL_UD,
+	END,
+};

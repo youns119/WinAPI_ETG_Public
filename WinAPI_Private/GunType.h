@@ -1,0 +1,12 @@
+#pragma once
+
+enum class GUN_TYPE
+{
+	REVOLVER,
+	SHOTGUN,
+	MACHINEGUN,
+	PIERCEGUN,
+	REFLECTGUN,
+	HOMINGGUN,
+	END,
+};
